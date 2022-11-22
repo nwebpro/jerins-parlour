@@ -1,7 +1,8 @@
 import React from 'react'
-import useSetTitle from '../../../Hooks/useSetTitle';
-import Hero from '../Hero/Hero';
-import Services from '../Services/Services';
+import useSetTitle from '../../../Hooks/useSetTitle'
+import Facial from '../Facial/Facial'
+import Hero from '../Hero/Hero'
+import Services from '../Services/Services'
 
 const Home = () => {
     useSetTitle('Home')
@@ -9,6 +10,7 @@ const Home = () => {
         <main>
             <Hero />
             <Services />
+            <Facial />
         </main>
     );
 };
