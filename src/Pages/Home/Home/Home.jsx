@@ -3,6 +3,7 @@ import useSetTitle from '../../../Hooks/useSetTitle'
 import Facial from '../Facial/Facial'
 import Hero from '../Hero/Hero'
 import Services from '../Services/Services'
+import Testimonials from '../Testimonials/Testimonials'
 
 const Home = () => {
     useSetTitle('Home')
@@ -11,6 +12,7 @@ const Home = () => {
             <Hero />
             <Services />
             <Facial />
+            <Testimonials />
         </main>
     );
 };

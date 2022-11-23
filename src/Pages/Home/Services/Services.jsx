@@ -29,7 +29,7 @@ const serviceData = [
 
 const Services = () => {
     return (
-        <section className='mt-24 mb-14  container mx-auto px-4 lg:px-0'>
+        <section className='mt-24 mb-14 container mx-auto px-4 lg:px-0'>
             <h2 className="text-center font-poppins text-theme-text font-bold text-4xl leading-10 mb-[72px]">Our Awesome <span className='text-theme-primary'>Services</span></h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12'>
                 {

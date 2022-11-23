@@ -1,0 +1,9 @@
+.swiper {
+    padding: 0px 0px 58px;
+}
+span.swiper-pagination-bullet{
+    background-color: #C4C4C4;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #251D58;
+}
